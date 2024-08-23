@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestServiceController {
    @GetMapping("/display")
 	public ResponseEntity<String> displayMessage(){
+	   System.out.println("ravi");
 		return new ResponseEntity<String>("Welcome to SpringBoot MS",HttpStatus.OK);
 	}
 }
