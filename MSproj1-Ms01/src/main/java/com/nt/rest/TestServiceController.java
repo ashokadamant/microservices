@@ -13,6 +13,7 @@ public class TestServiceController {
    @GetMapping("/display")
 	public ResponseEntity<String> displayMessage(){
 	   System.out.println("ravi");
+	   System.out.println("ravi1");
 		return new ResponseEntity<String>("Welcome to SpringBoot MS",HttpStatus.OK);
 	}
 }
